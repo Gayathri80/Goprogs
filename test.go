@@ -18,6 +18,6 @@ func main() {
 	input = strings.TrimSpace(input)
 	myVar, error := strconv.Atoi(input)
 	fmt.Printf("\ntype of value %T", myVar)
-	fmt.Println("\nerror:", error)
+	fmt.Println("\nerror:::::::::::", error)
 	fmt.Println("number:", myVar)
 }
