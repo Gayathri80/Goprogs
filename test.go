@@ -19,6 +19,6 @@ func main() {
 	myVar, error := strconv.Atoi(input)
 	fmt.Printf("\ntype of value %T", myVar)
 	fmt.Println("\nerror:::::::::::", error)
-	fmt.Println("\nbaseeeeeeeeee 2 value %b", myVar)
+	fmt.Println("\nbas 2 value %b", myVar)
 	fmt.Println("number:", myVar)
 }
